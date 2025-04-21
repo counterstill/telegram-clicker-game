@@ -8,7 +8,7 @@
     "start": "node app.js",
     "dev:output": "nodemon app.js",
     "dev:client": "rollup -c -w",
-    "dev:server": "jest",
+    "dev:server": "app.js",
     "debug:server": "set DEBUG=debug:server & nodemon app.js",
     "debug:client": "set DEBUG=debug:client & nodemon app.js",
     "debug:mysqli": "set DEBUG=debug:mysqli & nodemon app.js",
